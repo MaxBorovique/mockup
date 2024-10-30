@@ -1,0 +1,8 @@
+@import './styles/utils/mixins';
+@import './styles/utils/theme';
+
+
+html {
+  background-color: var(--bg-color);
+}
+
