@@ -1,12 +1,19 @@
-@use '../../App.scss';
+@use '../../assets/styles/main.scss' as *;
+@use '../../assets/styles/mixins' as *;
 
 .container {
   display: grid;
   min-width: 320px;
-  grid-template-columns: repeat(4, 1fr);
-}
+  grid-template-areas: 
+  "header"
+  "main"
+  "footer";
 
-// @include respond-to(desktop) {
-//   grid-template-columns: repeat(12, 1fr);
-//   background-color: red;
-// }
+  @include respond-to(desktop) {
+  grid-template-areas:
+  "header header header"
+  "hero hero hero"
+  "aside main main"
+  "footer footer footer";
+  }
+}

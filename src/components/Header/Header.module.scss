@@ -1,7 +1,7 @@
-@use '../../App.scss';
+@use '../../assets/styles/main.scss' as *;
 
 .header {
-  grid-column: 1/-1
+  grid-area: header;
 }
 
 .container {

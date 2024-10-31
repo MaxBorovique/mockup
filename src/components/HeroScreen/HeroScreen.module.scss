@@ -1,6 +1,10 @@
-@use '../../App.scss';
+@use '../../assets/styles/main.scss' as *;
+
+.heroscreen {
+  grid-area: hero;
+}
+
 .title {
-  grid-column: 1/-1;
   font-style: italic;
   font-size: 46px;
   color: var(--title-color);

@@ -1,15 +1,15 @@
-import { useLayoutEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 export const ThemeSwitcher = () => {
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
 
-  useLayoutEffect(() => {
-    document.documentElement.setAttribute("data-theme", theme);
+  useEffect(() => {
+    document.documentElement.classList.toggle('dark', theme === 'dark');
     localStorage.setItem("theme", theme);
   }, [theme]);
 
   const themeHandler = () => {
-    setTheme((prevTheme) => (prevTheme === "light" ? "dark" : "light"));
+    setTheme((prevTheme) => (prevTheme === "" ? "dark" : ""));
   };
 
   return (

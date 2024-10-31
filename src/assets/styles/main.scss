@@ -1,0 +1,15 @@
+@use 'reset';
+@use 'mixins' as *;
+@use 'theme';
+
+
+
+
+html {
+  background-color: var(--bg-color);
+}
+
+h1 {
+  font-size: 10px;
+  background-color: #333333;
+}

@@ -1,5 +1,4 @@
-export interface Link {
-  id: number,
+export interface Navigation {
   name: string,
   url?: string,
   logoUrl?: string,

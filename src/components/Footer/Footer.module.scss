@@ -1,0 +1,21 @@
+@use '../../assets/styles/main.scss' as *;
+@use '../../assets/styles/mixins' as *;
+
+.footer {
+  grid-area: footer;
+}
+
+.container {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  border-top: 1px dashed #000;
+}
+
+
+.navigation {
+  display: flex;
+  gap: 16px;
+}
