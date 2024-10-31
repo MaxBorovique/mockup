@@ -1,5 +1,7 @@
-@import './styles/utils/mixins';
-@import './styles/utils/theme';
+@use './styles/utils/mixins' as *;
+@use './styles/utils/theme' as *;
+@use './styles/utils/reset' as *;
+
 
 
 html {

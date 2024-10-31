@@ -1,0 +1,11 @@
+*,
+::after,
+::before {
+  transition: background-color 0.8s ease, color 0.8s ease;;
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}

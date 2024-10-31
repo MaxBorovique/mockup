@@ -1,0 +1,26 @@
+@use '../../App.scss';
+
+.header {
+  grid-column: 1/-1
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  height: 70px;
+  border-bottom: 1px dashed grey;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+
+  .item {
+    list-style: none;
+    text-transform: uppercase;
+    color: var(--text-color);
+  }
+}

@@ -1,5 +1,6 @@
-@import '../../App.scss';
+@use '../../App.scss';
 .title {
+  grid-column: 1/-1;
   font-style: italic;
   font-size: 46px;
   color: var(--title-color);

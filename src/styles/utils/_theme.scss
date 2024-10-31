@@ -1,11 +1,16 @@
 // info: light theme
 :root {
-  --bg-color: #bcaa99;
+  --bg-color: #EEE8EC;
   --title-color: #0D2149;
+  --text-color: #231A21;
 }
 
 // info: dark theme
 [data-theme='dark'] {
-  --bg-color: #313E50;
+  --bg-color: #231A21;
   --title-color: #DDFFF7;
+  --text-color: #EEE8EC;
 }
+
+
+// #A07E94
